@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/main.ico</file>
+        <file>icon/black.css</file>
+        <file>icon/main_bg.png</file>
+        <file>icon/fontawesome-webfont.ttf</file>
+    </qresource>
+</RCC>

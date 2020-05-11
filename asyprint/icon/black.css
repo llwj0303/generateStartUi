@@ -1,0 +1,110 @@
+/*QStackedWidget#stackedWidget{
+        border: 1px solid #cccccc;
+        background:#f7ffff;
+}*/
+
+/*QWidget#widget_title{
+        background: #afc5f4
+}*/
+
+QWidget#editInfoDialog, QWidget#frmMessageBox, QWidget#tooltipWgt{
+    border: 1px solid #cccccc;
+    background:#f7ffff;
+}
+
+.QLabel{
+    color: #323232;
+}
+
+QLabel#label_showName,
+QLabel#label_showPwd,
+QLabel#label_ios,
+QLabel#label_android{
+        border-radius:0px;
+        color: #666666;
+}
+
+QLabel#label_segmentation,
+QLabel#label_segmentation_2{
+        border-radius:0px;
+        background: #d1d1d1;
+}
+
+.QPushButton{
+        border-style: none;
+        border: 1px solid #cccccc;
+        color: #323232;
+        padding: 5px;
+        min-height: 20px;
+        border-radius:5px;
+        background: #ffffff;
+}
+
+.QPushButton:hover{
+        background: #AFC5F4;
+}
+
+.QPushButton:pressed{
+        background: #AFC5F4
+}
+
+QPushButton#btnMenu_dir,QPushButton#btnMenu,QPushButton#btnMenu_Min,QPushButton#btnMenu_Close,
+QPushButton#tooltipClostBtn{
+        border-radius:0px;
+        color: #323232;
+        background-color:rgba(0,0,0,0);
+        border-style:none;
+}
+
+QPushButton#btnMenu::menu-indicator {
+     image: none;
+     width: 0px;
+     height: 0px;
+ }
+
+QPushButton#btnMenu_dir:hover,QPushButton#btnMenu:hover,QPushButton#btnMenu_Min:hover{
+        background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #0e8bee);
+}
+
+QPushButton#btnMenu_Close:hover{
+        background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+
+QPushButton#buyBtn{
+    padding: 0px;
+    min-height: 18px;
+    background-color:rgba(0,0,0,0);
+    color:#323232;
+    border:0px;
+}
+QPushButton#buyBtn:pressed{
+    padding: 0px;
+    min-height: 18px;
+    background-color:rgba(0,0,0,0);
+    color:#323232;
+}
+
+QMenu{
+    border: 1px solid rgba(204,204,204,200);
+    background-color: rgb(247, 255, 255);
+    color: #000000;
+}
+
+QMenu::item {
+    padding: 5px 25px 5px 25px;
+    border: 0px solid transparent; /* reserve space for selection border */
+}
+
+QMenu::item:selected {
+    background-color:rgb(210,211,212);
+}
+
+QMenu::icon { /* appearance of a 'checked' icon */
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 5px;
+}
+
+
